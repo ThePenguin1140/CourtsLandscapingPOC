@@ -1,0 +1,108 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Courts Landscaping"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+publishDir = "docs"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Courts Landscaping"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Testimonials"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Complete Landscaping Services"
+		subtitle   = "Proudly serving the Island since 2004"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "We've got what you need!"
+		description = "We are a full service landscaping company serving Charlottetown and Prince Edward Island. We provide a wide range of services including landscape construction, maintenance and design. Established in 2004, Court`s has built a reputation for professional, high quality work. We carry commercial liability insurance, are in good standing with WCB of PEI and a proud member of the Canadian Landscape Association and Landscape PEI."
+		buttonText  = "See what we have to offer!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-tree"
+            title = "Softscape"
+            description = "Flowerbeds, trees, shrubs, lawn seeding and sodding - we look after your installation with care."
+
+        [[params.services.list]]
+			icon = "fa-road"
+			title = "Hardscape"
+			description = "We have extensive experience installing quality interlocking stone, retaining walls and stone patios."
+
+		[[params.services.list]]
+            icon = "fa-leaf"
+            title = "Maintenance"
+            description = "We are here to help maintain your property from lawn repair to flowerbed maintenance, contact us today."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "We put passion into our work and our customers are feeling it! Head down to testimonials to learn more."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Something about victory stone maybe?"
+
+		[params.aside.button]
+			text = "Visit Us!"
+			link = "http://www.victorystone.ca/"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
+
+	# Google Maps section
+	 [params.location]
+	 	latitude  = "46.2810915"
+	 	longitude = "-63.146854"
+	 	maps_api_key = ""
