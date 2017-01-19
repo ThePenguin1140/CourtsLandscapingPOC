@@ -105,4 +105,4 @@ publishDir = "docs"
 	 [params.location]
 	 	latitude  = "46.2810915"
 	 	longitude = "-63.146854"
-	 	maps_api_key = ""
+	 	maps_api_key = "AIzaSyA0dk4kPmgCAd34noH3-XePIf479N4TiQg"
